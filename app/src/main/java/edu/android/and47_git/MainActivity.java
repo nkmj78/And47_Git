@@ -1,5 +1,6 @@
 package edu.android.and47_git;
 
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.EditText;
@@ -15,6 +16,6 @@ public class MainActivity extends AppCompatActivity {
         textView=findViewById(R.id.textView);
         textView.setText("My First GitHub project");
         textView.setTextSize(24);
-       
+        textView.setTextColor(Color.RED);
     }
 }
