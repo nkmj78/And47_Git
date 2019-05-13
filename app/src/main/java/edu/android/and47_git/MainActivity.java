@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         textView=findViewById(R.id.textView);
         textView.setText("My First GitHub project");
         textView.setTextSize(24);
-        textView.setTextColor(Color.RED);
+        textView.setTextColor(Color.BLUE);
+        
     }
 }
